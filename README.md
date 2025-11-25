@@ -1,8 +1,8 @@
 # Advanced-Safety-Monitoring-System
 A comprehensive computer vision and IoT-based safety monitoring system that combines face recognition, Personal Protective Equipment (PPE) detection, and real-time sensor monitoring with automated WhatsApp alerts.
 
-##🚀 Features
-##🔍 Face Recognition & Monitoring
+## 🚀 Features
+## 🔍 Face Recognition & Monitoring
 
     1. Real-time face detection and recognition using OpenCV's YuNet and SFace models
 
@@ -12,7 +12,7 @@ A comprehensive computer vision and IoT-based safety monitoring system that comb
 
     4. Live video feed from webcam or video files
 
-##🛡️ PPE Violation Detection
+## 🛡️ PPE Violation Detection
     1. YOLO-based detection of safety equipment violations:
 
         Hardhat
@@ -29,7 +29,7 @@ A comprehensive computer vision and IoT-based safety monitoring system that comb
 
     2. Real-time violation alerts with bounding boxes and confidence scores
 
-##📊 IoT Sensor Integration
+## 📊 IoT Sensor Integration
 
    1. Real-time sensor data monitoring via UDP:
 
@@ -43,7 +43,7 @@ A comprehensive computer vision and IoT-based safety monitoring system that comb
 
    2. Configurable safety thresholds for health risk detection
 
-##📱 Automated WhatsApp Alerts
+## 📱 Automated WhatsApp Alerts
 
     1. Instant PPE violation alerts with annotated images
 
@@ -53,7 +53,7 @@ A comprehensive computer vision and IoT-based safety monitoring system that comb
 
     4. Professional alert templates with safety protocols
 
-##🛠️ Installation
+## 🛠️ Installation
 Prerequisites
 
     1. Python 3.8+
@@ -62,7 +62,7 @@ Prerequisites
 
     3. WhatsApp account for alert system
 
-##Required Libraries
+## Required Libraries
 bash
 
 pip install -r requirements.txt
@@ -118,7 +118,7 @@ SENSOR_THRESHOLDS = {
 
     Automatic WhatsApp alerts for critical readings
 
-##🏗️ System Architecture
+## 🏗️ System Architecture
 Components
 
     FaceRecognitionApp: Main GUI application
@@ -139,7 +139,7 @@ Alert Flow
 
     Rate Limiting: Maximum one alert per minute per category
 
-##⚙️ Configuration
+## ⚙️ Configuration
 Sensor Data Format
 json
 
@@ -160,7 +160,7 @@ Alert Thresholds
 
     Pressure: Critical < 940 hPa
 
-##🎯 Key Features
+## 🎯 Key Features
 Smart Alert Management
 
     Prevents alert spam with minute-based rate limiting
@@ -185,11 +185,11 @@ Data Persistence
 
     Flexible video source selection
 
-##🚨 Alert Examples
+## 🚨 Alert Examples
 PPE Violation Alert
 text
 
-##🚨 PPE VIOLATION DETECTED 🚨
+## 🚨 PPE VIOLATION DETECTED 🚨
 
 Time: 2024-01-15 14:30:25
 
@@ -203,7 +203,7 @@ Action Required: Immediate supervisor notification
 Health Risk Alert
 text
 
-##⚠️ HEALTH RISK ALERT ⚠️
+## ⚠️ HEALTH RISK ALERT ⚠️
 
 Time: 2024-01-15 14:35:10
 
@@ -216,7 +216,7 @@ Detected Violations:
 ⚠️ Very high pulse (145 BPM) - dangerous for worker
 ⚠️ Extremely high temperature (41.2°C) - heat stress risk
 
-##🔧 Troubleshooting
+## 🔧 Troubleshooting
 Common Issues
 
     Webcam not detected: Check camera permissions and try video file
@@ -227,7 +227,7 @@ Common Issues
 
     Sensor data not received: Check UDP port and data format
 
-##Performance Tips
+## Performance Tips
 
     Use GPU acceleration for YOLO model if available
 
@@ -238,10 +238,10 @@ Common Issues
 📄 License
 
 This project is for educational and research purposes. Ensure compliance with local regulations regarding surveillance and data privacy.
-##🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
-##⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This system is designed for safety monitoring in controlled environments. Always ensure proper consent and compliance with privacy laws when deploying facial recognition systems.
 
