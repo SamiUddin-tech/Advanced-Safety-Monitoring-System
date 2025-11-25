@@ -1,0 +1,16 @@
+# Core dependencies
+numpy>=1.21.0
+opencv-python>=4.5.0
+ultralytics>=8.0.0
+
+# GUI framework
+PyQt5>=5.15.0
+
+# Networking
+socketio>=5.0.0
+
+# WhatsApp functionality
+pywhatkit>=5.0
+
+# Utility
+pillow>=8.0.0
